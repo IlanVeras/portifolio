@@ -1,0 +1,17 @@
+[
+    {
+      "id": 1,
+      "nome": "Governo de Norta",
+      "descricao": "Baseado na série de livros de Victoria Aveyard esse é um site que guarda as informações das pessoas de Norta",
+      "tecnologias": ["React", "HTML", "CSS", "JavaScript"],
+      "link": "https://red-queen-app-ten.vercel.app/"
+    },
+    {
+      "id": 2,
+      "nome": "Loja Online",
+      "descricao": "Lista de tarefas com persistência local",
+      "tecnologias": ["React", "HTML", "CSS"],
+      "link": "https://loja-online-kappa.vercel.app/"
+    }
+  ]
+  
