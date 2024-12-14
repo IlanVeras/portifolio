@@ -13,10 +13,9 @@ function App() {
       <BrowserRouter>
         <Header></Header>
         <Routes>
-          <Route path="/" element={<Home/>}/>
+          <Route path="/" element={<Projetos/>}/>
           <Route path="/sobre" element={<Sobre/>}/>
           <Route path="/habilidades" element={<Habilidades/>}/>
-          <Route path="/projetos" element={<Projetos/>}/>
           <Route path="/contato" element={<Contato/>}/>
           <Route path="/cv" element={<Curriculo/>}/>
         </Routes>

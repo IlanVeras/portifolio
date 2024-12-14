@@ -1,6 +1,7 @@
 import React from "react"
 import projetosObj from "../../assets/ProjetosLinks.json"
 import SitePreview from "../SitePreview/SitePreview"
+import "./Projetos.css"
 
 export default function Projetos(){
     return(
