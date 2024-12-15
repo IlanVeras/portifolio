@@ -1,0 +1,12 @@
+.container {
+    background-color: yellow;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanhos iguais */
+    gap: 1rem; /* Espaçamento entre os itens */
+}
+
+.containerSec {
+    background-color: red;
+    text-align: center;
+    padding: 0.5rem;
+}

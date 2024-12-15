@@ -1,17 +1,14 @@
 import { NavLink } from "react-router-dom"
-import "./Header.css"
+import styles from "./Header.module.css"
 
 export default function Header(){
     return(
-        <div className="Header container">
-            <h1>Header</h1>
-            <nav>
-                <NavLink to="/" className="customLink">Home</NavLink>
-                <NavLink to="/sobre" className="customLink">Sobre</NavLink>
-                <NavLink to="/habilidades" className="customLink">Habilidades</NavLink>
-
-                <NavLink to="/contato" className="customLink">Contato</NavLink>
-                <NavLink to="/cv" className="customLink">CV</NavLink>
+        <div className={styles.container}>
+            <nav className={styles.navbar}>
+                <NavLink to="/" className={styles.navLink}>Home</NavLink>
+                <NavLink to="/sobre" className={styles.navLink}>Sobre</NavLink>
+                <NavLink to="/contato" className={styles.navLink}>Contato</NavLink>
+                <NavLink to="/cv" className={styles.navLink}>CV</NavLink>
             </nav>
         </div>
     )

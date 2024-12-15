@@ -6,20 +6,24 @@ import Habilidades from "./Components/Habilidades/Habilidades"
 import Projetos from "./Components/Projetos/Projetos"
 import Contato from "./Components/Contato/Contato"
 import Curriculo from "./Components/Curriculo/Curriculo"
+import Footer from "./Components/Footer/Footer"
+import "./App.css"
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <BrowserRouter>
         <Header></Header>
-        <Routes>
-          <Route path="/" element={<Projetos/>}/>
-          <Route path="/sobre" element={<Sobre/>}/>
-          <Route path="/habilidades" element={<Habilidades/>}/>
-          <Route path="/contato" element={<Contato/>}/>
-          <Route path="/cv" element={<Curriculo/>}/>
-        </Routes>
+        <main>
+          <Routes>
+            <Route path="/" element={<Projetos/>}/>
+            <Route path="/sobre" element={<Sobre/>}/>
+            <Route path="/contato" element={<Contato/>}/>
+            <Route path="/cv" element={<Curriculo/>}/>
+          </Routes>
+        </main>
       </BrowserRouter>
+      <Footer/>
     </div>
   )
 }

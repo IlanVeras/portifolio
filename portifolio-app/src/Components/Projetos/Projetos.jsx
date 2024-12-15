@@ -1,20 +1,21 @@
 import React from "react"
 import projetosObj from "../../assets/ProjetosLinks.json"
 import SitePreview from "../SitePreview/SitePreview"
-import "./Projetos.css"
+import styles from "./Projetos.module.css"
 
 export default function Projetos(){
     return(
-        <div>
-            <h1>Projetos</h1>
+        <div className={styles.container}>
+            {/* <h1>Projetos</h1> */}
             {
                 projetosObj.map((projeto) => (
-                    <div key={projeto.id}>
+                    <div key={projeto.id} className={styles.containerSec}>
                         <h2>{projeto.nome}</h2>
-                        <SitePreview link={projeto.link}></SitePreview>
+                        <SitePreview imagem={projeto.imagem}></SitePreview>
                         <p>{projeto.descricao}</p>
-                        <p>Tecnologias: {projeto.tecnologias.join(', ')}</p>
+                        <p>Tecnologias e conceitos utilizados: {projeto.tecnologias.join(', ')}</p>
                         <a href={projeto.link}>Ver Projeto</a>
+                        <a href={projeto.repositorio}>Ver repositório</a>
                     </div>
                 ))
             }
