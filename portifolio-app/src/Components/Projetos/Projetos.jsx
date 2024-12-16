@@ -1,6 +1,7 @@
 import React from "react"
 import projetosObj from "../../assets/ProjetosLinks.json"
 import SitePreview from "../SitePreview/SitePreview"
+import Tec from "../Tec/Tec"
 import styles from "./Projetos.module.css"
 
 export default function Projetos(){
@@ -12,10 +13,24 @@ export default function Projetos(){
                     <div key={projeto.id} className={styles.containerSec}>
                         <h2>{projeto.nome}</h2>
                         <SitePreview imagem={projeto.imagem}></SitePreview>
-                        <p>{projeto.descricao}</p>
-                        <p>Tecnologias e conceitos utilizados: {projeto.tecnologias.join(', ')}</p>
-                        <a href={projeto.link}>Ver Projeto</a>
-                        <a href={projeto.repositorio}>Ver repositório</a>
+                        <div className={styles.detalhes}>
+                            <div>
+                                <p>{projeto.descricao}</p>
+                            </div>
+                            <div className={styles.tecLink}>
+                                <div className={styles.tecnologias}>
+                                    {
+                                        projeto.tecnologias.map((tecnologia) => (
+                                            <Tec tec={tecnologia}/>
+                                        ))
+                                    }
+                                </div>
+                                <div className={styles.infoLinks}>
+                                    <a href={projeto.link} className={styles.link}>Ver Projeto</a>
+                                    <a href={projeto.repositorio} className={styles.link}>Ver repositório</a>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 ))
             }

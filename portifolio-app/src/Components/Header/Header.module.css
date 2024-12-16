@@ -1,12 +1,11 @@
 .container {
-    background-color: antiquewhite;
     display: flex;
     justify-content: center;
 }
 
 .navbar {
     display: flex;
-    width: 100%;
+    width: 100%; 
 }
 
 .navLink {
@@ -19,5 +18,5 @@
 }
 
 .navLink:hover {
-    background-color: lightgreen;
+    background-color: rgb(216, 216, 216);
 }

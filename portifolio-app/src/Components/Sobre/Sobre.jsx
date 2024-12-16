@@ -10,41 +10,44 @@ export default function Sobre(){
                 <p>Desenvolvedor Web Junior</p>
             </div>
             <div>
-                <p>Tecnologias:</p>
-                <ul>
-                    <li>
-                        <p>HTML</p>
-                        <img src="#"></img>
-                    </li>
-                    <li>
-                        <p>CSS</p>
-                        <img src="#"></img>
-                    </li>
-                    <li>
-                        <p>JavaScript</p>
-                        <img src="#"></img>
-                    </li>
-                    <li>
-                        <p>React</p>
-                        <img src="#"></img>
-                    </li>
-                    <li>
-                        <p>Node.Js</p>
-                        <img src="#"></img>
-                    </li>
-                    <li>
-                        <p>Mongo DB</p>
-                        <img src="#"></img>
-                    </li>
-                    <li>
-                        <p>Bootstrap</p>
-                        <img src="#"></img>
-                    </li><li>
-                        <p>MUI</p>
-                        <img src="#"></img>
-                    </li>
-                </ul>
-                
+                <div>
+                    <p>Tecnologias:</p>
+                </div>
+                <div className={styles.tecnologias}>
+                    <ul>
+                        <li>
+                            <img src="./icons/html.png"></img>
+                            <p>HTML</p>
+                        </li>
+                        <li>
+                            <img src="./icons/css-3.png"></img>
+                            <p>CSS</p>
+                        </li>
+                        <li>
+                            <img src="./icons/js.png"></img>
+                            <p>JavaScript</p>
+                        </li>
+                        <li>
+                            <img src="./icons/react.png"></img>
+                            <p>React</p>
+                        </li>
+                        <li>
+                            <img src="./icons/node.png"></img>
+                            <p>Node.Js</p>
+                        </li>
+                        <li>
+                            <img src="./icons/mongodddbbb.png"></img>
+                            <p>Mongo DB</p>
+                        </li>
+                        <li>
+                            <img src="./icons/bootstrap.png"></img>
+                            <p>Bootstrap</p>
+                        </li><li>
+                            <img src="./icons/mui.png"></img>
+                            <p>MUI</p>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
     )

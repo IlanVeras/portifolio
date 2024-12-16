@@ -1,6 +1,16 @@
-footer{
-    color: white;
+.container{
+    /* background-color: grey; */
+    color: black;
     text-align: center;
-    padding: 20px 0;
     width: 100%;
+}
+
+.verMais{
+    font-size: 10px;
+    color: rgb(161, 161, 161);
+    cursor: pointer;
+}
+
+a{
+    all: unset;
 }

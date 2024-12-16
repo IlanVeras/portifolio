@@ -5,8 +5,50 @@
     gap: 1rem; /* Espaçamento entre os itens */
 }
 
+
 .containerSec {
     background-color: red;
     text-align: center;
     padding: 0.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.detalhes{
+    background-color: darkorange;
+    display: flex;
+    flex-direction: column;
+    flex-grow: 1;
+}
+
+
+.tecLink{
+    background-color: azure;
+    margin-top: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.tecnologias{
+    /* background-color: blue; */
+    min-height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoLinks{
+    background-color: blueviolet;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.link{
+    all: unset;
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 5px;
+    background-color: green;
 }

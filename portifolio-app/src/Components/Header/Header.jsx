@@ -8,7 +8,6 @@ export default function Header(){
                 <NavLink to="/" className={styles.navLink}>Home</NavLink>
                 <NavLink to="/sobre" className={styles.navLink}>Sobre</NavLink>
                 <NavLink to="/contato" className={styles.navLink}>Contato</NavLink>
-                <NavLink to="/cv" className={styles.navLink}>CV</NavLink>
             </nav>
         </div>
     )
