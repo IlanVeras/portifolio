@@ -1,6 +1,7 @@
 .container {
     display: flex;
     justify-content: center;
+    margin-bottom: 1rem;
 }
 
 .navbar {
@@ -15,8 +16,9 @@
     padding: 1rem;
     transition: background-color 0.3s ease;
     font-size: 1.2rem;
+    color: white;
 }
 
 .navLink:hover {
-    background-color: rgb(216, 216, 216);
+    background-color: #01353b;
 }

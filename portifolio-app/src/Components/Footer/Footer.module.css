@@ -14,3 +14,7 @@
 a{
     all: unset;
 }
+
+footer{
+    font-size: 15px;
+}

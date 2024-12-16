@@ -11,6 +11,9 @@ export default function Creditos(){
                 <li><a href="https://www.flaticon.com/free-icons/node" title="node icons">Node icons created by pocike - Flaticon</a></li>
                 <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Fmui.com%2F&psig=AOvVaw0w55eNfUUwwGdDGj2dZ_Fa&ust=1734461442254000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCICdhsP6rIoDFQAAAAAdAAAAABAE">Mui</a></li>
                 <li><a href="https://www.google.com/url?sa=i&url=https%3A%2F%2Ficons8.com.br%2Ficon%2F74402%2Fmongodb&psig=AOvVaw36_6S74F8TtpIc6w7xnmB-&ust=1734461367309000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCLj3rKH6rIoDFQAAAAAdAAAAABAQ">Mongo DB</a></li>
+                <li><a href="https://www.flaticon.com/free-icons/github" title="github icons">Github icons created by Freepik - Flaticon</a></li>
+                <li><a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons">Linkedin icons created by Freepik - Flaticon</a></li>
+                <li><a href="https://www.flaticon.com/free-icons/email" title="email icons">Email icons created by Uniconlabs - Flaticon</a></li>
             </ul>
         </div>
     )

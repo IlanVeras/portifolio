@@ -1,22 +1,26 @@
 .container {
-    background-color: yellow;
+    /* background-color: yellow; */
     display: grid;
     grid-template-columns: repeat(3, 1fr); /* 3 colunas de tamanhos iguais */
     gap: 1rem; /* Espaçamento entre os itens */
+    /* background-color: red; */
+    padding-bottom: 1rem;
 }
 
 
 .containerSec {
-    background-color: red;
+    background-color: #a9f5ff;
+    box-shadow: 8px 8px 15px 1px rgba(255, 251, 251, 0.2);
     text-align: center;
     padding: 0.5rem;
+    border-radius: 5px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
 }
 
 .detalhes{
-    background-color: darkorange;
+    /* background-color: darkorange; */
     display: flex;
     flex-direction: column;
     flex-grow: 1;
@@ -24,7 +28,7 @@
 
 
 .tecLink{
-    background-color: azure;
+    /* background-color: azure; */
     margin-top: auto;
     display: flex;
     flex-direction: column;
@@ -39,16 +43,27 @@
 }
 
 .infoLinks{
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
     justify-content: space-around;
     align-items: center;
+    font-size: 1.3rem;
+    color: rgb(41, 41, 41);
 }
+
+/* .infoLinks:hover{
+    background-color: #01ffac;
+} */
+
 
 .link{
     all: unset;
     cursor: pointer;
     margin: 0 5px;
     padding: 5px;
-    background-color: green;
+    /* background-color: green; */
+}
+
+.link:hover{
+    color: #00aa71;
 }

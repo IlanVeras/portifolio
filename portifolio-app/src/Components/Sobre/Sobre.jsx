@@ -2,17 +2,20 @@ import styles from "./Sobre.module.css"
 
 export default function Sobre(){
     return(
-        <div>
-            <div>
+        <div className={styles.container}>
+            <div className={styles.nome}>
                 <h1>Ilan Veras</h1>
             </div>
-            <div>
-                <p>Desenvolvedor Web Junior</p>
+            <div className={styles.profissao}>
+                <span className={styles.codeProfissao}>{"<"}</span>
+                <span className={styles.textProfissao}>Programador Web Junior</span>
+                <span className={styles.codeProfissao}>{"/>"}</span>
+            </div>
+            <div className={styles.links}>
+                <a href="https://github.com/IlanVeras">Git Hub</a>
+                <a href="https://br.linkedin.com/in/ilan-veras-247405216">LinkedIn</a>
             </div>
             <div>
-                <div>
-                    <p>Tecnologias:</p>
-                </div>
                 <div className={styles.tecnologias}>
                     <ul>
                         <li>
