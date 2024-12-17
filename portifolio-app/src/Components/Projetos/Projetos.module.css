@@ -1,3 +1,6 @@
+.containerLinksMob{
+    display: none;
+}
 .container {
     /* background-color: yellow; */
     display: grid;
@@ -66,4 +69,23 @@
 
 .link:hover{
     color: #00aa71;
+}
+
+@media only screen and (max-width: 768px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .container{
+        width: 80%;
+        margin: auto;
+    }
+
+    .containerLinksMob{
+        display: block;
+    }
+    .containerModal{
+        display: none;
+    }
 }

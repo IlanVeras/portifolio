@@ -1,4 +1,46 @@
 import styles from "./Sobre.module.css"
+const tecnologias = [
+    {
+        id: 0,
+        nome: "HTML",
+        endereco: "./icons/html.png"
+    },
+    {
+        id: 1,
+        nome: "CSS",
+        endereco: "./icons/css-3.png"
+    },
+    {
+        id: 2,
+        nome: "JavaScript",
+        endereco: "./icons/js.png"
+    },
+    {
+        id: 3,
+        nome: "React",
+        endereco: "./icons/react.png"
+    },
+    {
+        id: 4,
+        nome: "Node.Js",
+        endereco: "./icons/node.png"
+    },
+    {
+        id: 5,
+        nome: "Mongo DB",
+        endereco: "./icons/mongodddbbb.png"
+    },
+    {
+        id: 6,
+        nome: "Bootstrap",
+        endereco: "./icons/bootstrap.png"
+    },
+    {
+        id: 7,
+        nome: "MUI",
+        endereco: "./icons/mui.png"
+    }
+]
 
 export default function Sobre(){
     return(
@@ -18,37 +60,14 @@ export default function Sobre(){
             <div>
                 <div className={styles.tecnologias}>
                     <ul>
-                        <li>
-                            <img src="./icons/html.png"></img>
-                            <p>HTML</p>
-                        </li>
-                        <li>
-                            <img src="./icons/css-3.png"></img>
-                            <p>CSS</p>
-                        </li>
-                        <li>
-                            <img src="./icons/js.png"></img>
-                            <p>JavaScript</p>
-                        </li>
-                        <li>
-                            <img src="./icons/react.png"></img>
-                            <p>React</p>
-                        </li>
-                        <li>
-                            <img src="./icons/node.png"></img>
-                            <p>Node.Js</p>
-                        </li>
-                        <li>
-                            <img src="./icons/mongodddbbb.png"></img>
-                            <p>Mongo DB</p>
-                        </li>
-                        <li>
-                            <img src="./icons/bootstrap.png"></img>
-                            <p>Bootstrap</p>
-                        </li><li>
-                            <img src="./icons/mui.png"></img>
-                            <p>MUI</p>
-                        </li>
+                        {
+                            tecnologias.map(tecnologia => (
+                                <li key={tecnologia.id}>
+                                    <img src={tecnologia.endereco}></img>
+                                    <p>{tecnologia.nome}</p>
+                                </li>
+                            ))
+                        }
                     </ul>
                 </div>
             </div>

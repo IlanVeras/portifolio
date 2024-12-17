@@ -3,6 +3,7 @@ import projetosObj from "../../assets/ProjetosLinks.json"
 import SitePreview from "../SitePreview/SitePreview"
 import Tec from "../Tec/Tec"
 import styles from "./Projetos.module.css"
+import Modal from "../Modal/Modal"
 
 export default function Projetos(){
     return(
@@ -18,7 +19,7 @@ export default function Projetos(){
                                 <p>{projeto.descricao}</p>
                             </div>
                             <div className={styles.tecLink}>
-                                <div className={styles.tecnologias}>
+                                <div className={styles.tecnologias} key={projeto.id}>
                                     {
                                         projeto.tecnologias.map((tecnologia) => (
                                             <Tec tec={tecnologia}/>
@@ -26,8 +27,13 @@ export default function Projetos(){
                                     }
                                 </div>
                                 <div className={styles.infoLinks}>
-                                    <a href={projeto.link} className={styles.link} target="_blank">Ver Projeto</a>
-                                    <a href={projeto.repositorio} className={styles.link} target="_blank">Ver repositório</a>
+                                    <div className={styles.containerModal}>
+                                        <Modal projetoL={projeto.link} projetoRep={projeto.repositorio}/>
+                                    </div>
+                                    <div className={styles.containerLinksMob}>
+                                        <a href={projeto.link} className={styles.link} target="_blank">Ver Projeto</a>
+                                        <a href={projeto.repositorio} className={styles.link} target="_blank">Ver repositório</a>
+                                    </div>
                                 </div>
                             </div>
                         </div>
