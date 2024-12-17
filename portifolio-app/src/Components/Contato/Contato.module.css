@@ -1,3 +1,33 @@
+.container{
+    background-color: #a9f5ff;
+    min-height: 85vh;
+    margin-bottom: 1rem;
+}
+
 img{
-    width: 50px;
+    width: 70px;
+}
+
+h1{
+    padding-top: 25px;
+    font-size: 4rem;
+    background-clip: text; 
+    text-align: center;
+}
+
+
+.allInfos{
+    background-color: white;
+    margin: auto;
+    max-width: 80%;
+    padding: 3rem;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.infoImage{
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
 }

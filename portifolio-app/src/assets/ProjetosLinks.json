@@ -16,42 +16,6 @@
       "link": "https://loja-online-kappa.vercel.app/",
       "repositorio": "https://github.com/IlanVeras/lojaOnline",
       "imagem": "/loja.JPG"
-    },
-    {
-      "id": 2,
-      "nome": "Governo de Norta",
-      "descricao": "Baseado na série de livros de Victoria Aveyard esse é um site que guarda as informações das pessoas de Norta",
-      "tecnologias": ["React", "HTML", "CSS", "JavaScript"],
-      "link": "https://red-queen-app-ten.vercel.app/",
-      "repositorio": "https://github.com/IlanVeras/red-queen-app",
-      "imagem": "/norta.JPG"
-    },
-    {
-      "id": 3,
-      "nome": "Loja Online",
-      "descricao": "Loja online com API pública externa",
-      "tecnologias": ["React", "HTML", "CSS"],
-      "link": "https://loja-online-kappa.vercel.app/",
-      "repositorio": "https://github.com/IlanVeras/lojaOnline",
-      "imagem": "/loja.JPG"
-    },
-    {
-      "id": 4,
-      "nome": "Governo de Norta",
-      "descricao": "Baseado na série de livros de Victoria Aveyard esse é um site que guarda as informações das pessoas de Norta",
-      "tecnologias": ["React", "HTML", "CSS", "JavaScript"],
-      "link": "https://red-queen-app-ten.vercel.app/",
-      "repositorio": "https://github.com/IlanVeras/red-queen-app",
-      "imagem": "/norta.JPG"
-    },
-    {
-      "id": 5,
-      "nome": "Loja Online",
-      "descricao": "Loja online com API pública externa",
-      "tecnologias": ["React", "HTML", "CSS"],
-      "link": "https://loja-online-kappa.vercel.app/",
-      "repositorio": "https://github.com/IlanVeras/lojaOnline",
-      "imagem": "/loja.JPG"
     }
   ]
   

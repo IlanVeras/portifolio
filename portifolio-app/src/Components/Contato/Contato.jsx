@@ -3,19 +3,27 @@ import styles from "./Contato.module.css"
 
 export default function Contato(){
     return(
-        <div>
+        <div className={styles.container}>
             <h1>Contato</h1>
-            <ul>
-                <li>Email: ilanbarrosveras123@gmail.com</li>
-            </ul>
-            <div className={styles.infoImage}>
-                <img src="./icons/github.png"></img>
-            </div>
-            <div className={styles.infoImage}>
-                <img src="./icons/linkedin.png"></img>
-            </div>
-            <div className={styles.infoImage}>
-                <img src="./icons/email.png"></img>
+            <div className={styles.allInfos}>
+                <div className={styles.infoImage}>
+                    <a href="https://github.com/IlanVeras">
+                        <img src="./icons/github.png"></img>
+                        <div>GitHub</div>
+                    </a>
+                </div>
+                <div className={styles.infoImage}>
+                    <a href="https://br.linkedin.com/in/ilan-veras-247405216">
+                        <img src="./icons/linkedin.png"></img>
+                        <div>Linkedin</div>
+                    </a>
+                </div>
+                <div className={styles.infoImage}>
+                    <a href="mailto:ilanveras761@gmail.com">
+                        <img src="./icons/email.png"></img>
+                        <div>ilanveras761@gmail.com</div>
+                    </a>
+                </div>
             </div>
         </div>
     )
