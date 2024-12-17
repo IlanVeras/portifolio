@@ -3,7 +3,7 @@ import styles from "./Contato.module.css"
 
 export default function Contato(){
     return(
-        <div className={styles.container}>
+        <div className={`${styles.container} Animate`}>
             <h1>Contato</h1>
             <div className={styles.allInfos}>
                 <div className={styles.infoImage}>

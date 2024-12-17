@@ -6,7 +6,7 @@ import styles from "./Projetos.module.css"
 
 export default function Projetos(){
     return(
-        <div className={styles.container}>
+        <div className={`${styles.container} Animate`}>
             {/* <h1>Projetos</h1> */}
             {
                 projetosObj.map((projeto) => (
@@ -26,8 +26,8 @@ export default function Projetos(){
                                     }
                                 </div>
                                 <div className={styles.infoLinks}>
-                                    <a href={projeto.link} className={styles.link}>Ver Projeto</a>
-                                    <a href={projeto.repositorio} className={styles.link}>Ver repositório</a>
+                                    <a href={projeto.link} className={styles.link} target="_blank">Ver Projeto</a>
+                                    <a href={projeto.repositorio} className={styles.link} target="_blank">Ver repositório</a>
                                 </div>
                             </div>
                         </div>

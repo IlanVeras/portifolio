@@ -11,7 +11,7 @@ import Creditos from "./Components/Creditos/Creditos"
 
 function App() {
   return (
-    <div className="App">
+    <div className="App Animate">
       <BrowserRouter>
         <Header></Header>
         <main>

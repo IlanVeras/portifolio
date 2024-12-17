@@ -2,7 +2,7 @@ import styles from "./Sobre.module.css"
 
 export default function Sobre(){
     return(
-        <div className={styles.container}>
+        <div className={`${styles.container} Animate`}>
             <div className={styles.nome}>
                 <h1>Ilan Veras</h1>
             </div>
@@ -12,8 +12,8 @@ export default function Sobre(){
                 <span className={styles.codeProfissao}>{"/>"}</span>
             </div>
             <div className={styles.links}>
-                <a href="https://github.com/IlanVeras">Git Hub</a>
-                <a href="https://br.linkedin.com/in/ilan-veras-247405216">LinkedIn</a>
+                <a href="https://github.com/IlanVeras" target="_blank">Git Hub</a>
+                <a href="https://br.linkedin.com/in/ilan-veras-247405216" target="_blank">LinkedIn</a>
             </div>
             <div>
                 <div className={styles.tecnologias}>
