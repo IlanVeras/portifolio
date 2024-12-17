@@ -7,13 +7,13 @@ export default function Contato(){
             <h1>Contato</h1>
             <div className={styles.allInfos}>
                 <div className={styles.infoImage}>
-                    <a href="https://github.com/IlanVeras">
+                    <a href="https://github.com/IlanVeras" target="_blank">
                         <img src="./icons/github.png"></img>
                         <div>GitHub</div>
                     </a>
                 </div>
                 <div className={styles.infoImage}>
-                    <a href="https://br.linkedin.com/in/ilan-veras-247405216">
+                    <a href="https://br.linkedin.com/in/ilan-veras-247405216" target="_blank">
                         <img src="./icons/linkedin.png"></img>
                         <div>Linkedin</div>
                     </a>
