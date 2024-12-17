@@ -4,11 +4,20 @@ import SitePreview from "../SitePreview/SitePreview"
 import Tec from "../Tec/Tec"
 import styles from "./Projetos.module.css"
 import Modal from "../Modal/Modal"
+import Teste from "../Teste/Teste"
 
 export default function Projetos(){
+    const [status,setStatus] = React.useState(false)
+
+    function handler(){
+        setStatus(!status)
+        console.log(status)
+    }
     return(
         <div className={`${styles.container} Animate`}>
-            {/* <h1>Projetos</h1> */}
+            {/* {status && <Teste status={status} setStatus={setStatus}/>}
+            <button onClick={handler}>Teste</button> */}
+            
             {
                 projetosObj.map((projeto) => (
                     <div key={projeto.id} className={styles.containerSec}>
@@ -30,6 +39,7 @@ export default function Projetos(){
                                     <div className={styles.containerModal}>
                                         <Modal projetoL={projeto.link} projetoRep={projeto.repositorio}/>
                                     </div>
+                                    {/* <button onClick={handler}>Teste</button> */}
                                     <div className={styles.containerLinksMob}>
                                         <a href={projeto.link} className={styles.link} target="_blank">Ver Projeto</a>
                                         <a href={projeto.repositorio} className={styles.link} target="_blank">Ver repositório</a>

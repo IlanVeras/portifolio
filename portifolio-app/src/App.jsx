@@ -8,6 +8,7 @@ import Curriculo from "./Components/Curriculo/Curriculo"
 import Footer from "./Components/Footer/Footer"
 import "./App.css"
 import Creditos from "./Components/Creditos/Creditos"
+import Teste from "./Components/Teste/Teste"
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
             <Route path="/sobre" element={<Sobre/>}/>
             <Route path="/contato" element={<Contato/>}/>
             <Route path="/mais" element={<Creditos/>}/>
+            <Route path="/teste" element={<Teste/>}/>
           </Routes>
         </main>
       </BrowserRouter>

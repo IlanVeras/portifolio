@@ -6,7 +6,7 @@ export default function Modal({projetoL,projetoRep}){
     const abrirModal = () => setIsOpen(true)
     const fecharModal = () => setIsOpen(false)
     return(
-        <div>
+        <div className={styles.container}>
             <button onClick={abrirModal}className={styles.openButton}>
                 Acessar
             </button>
