@@ -9,8 +9,11 @@ import Footer from "./Components/Footer/Footer"
 import "./App.css"
 import Creditos from "./Components/Creditos/Creditos"
 import Teste from "./Components/Teste/Teste"
+import Proj from "../src/assets/ProjetosLinks.json"
+
 
 function App() {
+  console.log(Proj)
   return (
     <div className="App Animate">
       <BrowserRouter>
@@ -21,7 +24,7 @@ function App() {
             <Route path="/sobre" element={<Sobre/>}/>
             <Route path="/contato" element={<Contato/>}/>
             <Route path="/mais" element={<Creditos/>}/>
-            <Route path="/teste" element={<Teste/>}/>
+            <Route path="/teste" element={<Teste projetos={Proj}/>}/>
           </Routes>
         </main>
       </BrowserRouter>

@@ -54,7 +54,7 @@ export default function Sobre(){
                 <span className={styles.codeProfissao}>{"/>"}</span>
             </div>
             <div className={styles.links}>
-                <a href="https://github.com/IlanVeras" target="_blank">Git Hub</a>
+                <a href="https://github.com/IlanVeras" target="_blank">GitHub</a>
                 <a href="https://br.linkedin.com/in/ilan-veras-247405216" target="_blank">LinkedIn</a>
             </div>
             <div>
