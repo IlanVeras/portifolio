@@ -16,6 +16,15 @@
       "link": "https://loja-online-kappa.vercel.app/",
       "repositorio": "https://github.com/IlanVeras/lojaOnline",
       "imagem": "/loja.JPG"
+    },
+    {
+      "id": 2,
+      "nome": "CEP",
+      "descricao": "Loja online com API pública externa",
+      "tecnologias": ["React", "HTML", "CSS", "axios", "API"],
+      "link": "",
+      "repositorio": "https://github.com/IlanVeras/cCep",
+      "imagem": "/cep.JPG"
     }
   ]
   
