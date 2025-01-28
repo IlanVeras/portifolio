@@ -1,6 +1,15 @@
 [
     {
       "id": 0,
+      "nome": "Dog | Rede Social",
+      "descricao": "Rede social para cachorro",
+      "tecnologias": ["React", "Dashboard", "Victory Lib.", "JavaScript", "React Router"],
+      "link": "https://dogsocialmedia74312.netlify.app/",
+      "repositorio": "https://github.com/IlanVeras/dog",
+      "imagem": "/norta.JPG"
+    },
+    {
+      "id": 1,
       "nome": "Governo de Norta",
       "descricao": "Baseado na série de livros de Victoria Aveyard esse é um site que guarda as informações das pessoas de Norta",
       "tecnologias": ["React", "HTML", "CSS", "JavaScript"],
@@ -9,7 +18,7 @@
       "imagem": "/norta.JPG"
     },
     {
-      "id": 1,
+      "id": 2,
       "nome": "Loja Online",
       "descricao": "Loja online com API pública externa",
       "tecnologias": ["React", "HTML", "CSS"],
@@ -18,7 +27,7 @@
       "imagem": "/loja.JPG"
     },
     {
-      "id": 2,
+      "id": 3,
       "nome": "CEP",
       "descricao": "Loja online com API pública externa",
       "tecnologias": ["React", "HTML", "CSS", "axios", "API"],
@@ -27,4 +36,3 @@
       "imagem": "/cep.JPG"
     }
   ]
-  
