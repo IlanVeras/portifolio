@@ -3,7 +3,7 @@
       "id": 0,
       "nome": "Dog | Rede Social",
       "descricao": "Rede social para cachorro",
-      "tecnologias": ["React", "Dashboard", "Victory Lib.", "JavaScript", "React Router"],
+      "tecnologias": ["React", "Victory Lib.", "React Router"],
       "link": "https://dogsocialmedia74312.netlify.app/",
       "repositorio": "https://github.com/IlanVeras/dog",
       "imagem": "/dogSocial.JPG"
