@@ -31,3 +31,17 @@ h1{
     text-align: center;
     cursor: pointer;
 }
+
+
+@media screen and (max-width: 600px){
+    .container{
+    }
+
+    .allInfos{
+        flex-direction: column;
+    }
+
+    .infoImage{
+        margin-bottom: 20px;
+    }
+}
